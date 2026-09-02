@@ -3,6 +3,6 @@ package com.nutritrack;
 public class Main {
 
     public static void main(String[] args){
-        System.out.println("Welcome to NutriTrack!");
+       User user = new User("Eliane", 1400, 120);
     }
 }
