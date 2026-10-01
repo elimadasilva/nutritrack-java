@@ -28,7 +28,7 @@ public class Main {
 
         try{
 
-            FoodEntry invalidEntry = new FoodEntry(rice, 0);
+            new FoodEntry(rice, 0);
 
         }
         catch(IllegalArgumentException e){
