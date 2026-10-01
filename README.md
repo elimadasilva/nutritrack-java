@@ -1,10 +1,25 @@
 # NutriTrack
 
-A simple Java application to track daily calories and protein intake.
+A Java application to track daily calories and protein intake.
 
-This project was created to solve a real problem: tracking calories and protein intake in a simple and fast way, without unnecessary features.
+NutriTrack was created to solve a real problem: tracking nutrition data in a simple and practical way, without unnecessary features.
 
-It is also part of my journey to become a Java Backend Developer.
+This project is also part of my journey to become a Java Backend Developer.
+
+## Current Features
+
+- User profile with daily calorie and protein goals
+- Food data modeling
+- Food consumption records
+- Calorie calculation based on consumed quantity
+- Protein calculation based on consumed quantity
+- Input validation for invalid data
+
+## Technologies
+
+- Java 25
+- Object-Oriented Programming (OOP)
+- Git and GitHub
 
 ## Goals
 
