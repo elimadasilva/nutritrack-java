@@ -38,13 +38,15 @@ A primeira versão deverá permitir que os usuários:
 
 Os alimentos poderão utilizar dois tipos de medida:
 
-**Unidade**
+### Unidade
+
 - Ovo
 - Banana
 - Maçã
 - Pão
 
-**Peso em gramas**
+### Peso em gramas
+
 - Arroz
 - Feijão
 - Carne bovina
@@ -58,6 +60,7 @@ Cada alimento possui um tipo de medida e uma quantidade de referência utilizada
 A interface da aplicação será escrita em português.
 
 Exemplos:
+
 - Adicionar alimento
 - Meta diária
 - Calorias
@@ -68,6 +71,7 @@ Exemplos:
 O código-fonte será escrito em inglês para manter a consistência dos nomes técnicos.
 
 Exemplos:
+
 - `Food`
 - `FoodEntry`
 - `DailyIntake`
@@ -128,13 +132,15 @@ The first version should allow users to:
 
 Foods can use two measurement types:
 
-**Unit**
+### Unit
+
 - Egg
 - Banana
 - Apple
 - Bread
 
-**Weight in grams**
+### Weight in grams
+
 - Rice
 - Beans
 - Beef
@@ -148,6 +154,7 @@ Each food has a measurement type and a reference amount used for nutritional cal
 The application interface will be written in Portuguese.
 
 Examples:
+
 - Adicionar alimento — Add food
 - Meta diária — Daily goal
 - Calorias — Calories
@@ -158,6 +165,7 @@ Examples:
 The source code will be written in English to maintain consistent technical naming.
 
 Examples:
+
 - `Food`
 - `FoodEntry`
 - `DailyIntake`
