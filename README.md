@@ -1,33 +1,53 @@
 # NutriTrack
 
-A Java application to track daily calories and protein intake.
+## 🇧🇷 Português
 
-NutriTrack was created to solve a real problem: tracking nutrition data in a simple and practical way, without unnecessary features.
+O NutriTrack é uma aplicação em Java desenvolvida para acompanhar o consumo diário de calorias e proteínas de forma simples e prática.
 
-This project is also part of my journey to become a Java Backend Developer.
+O projeto faz parte da minha jornada de aprendizado em Java e desenvolvimento backend. A documentação em inglês também faz parte do meu processo de aprendizagem do vocabulário técnico.
 
-## Current Features
+### Funcionalidades atuais
 
-- User profile with daily calorie and protein goals
-- Food data modeling
-- Food consumption records
-- Calorie calculation based on consumed quantity
-- Protein calculation based on consumed quantity
-- Input validation for invalid data
+- Cadastro de perfil e metas diárias de calorias e proteínas.
+- Modelagem de alimentos e suas informações nutricionais.
+- Registro de alimentos consumidos e suas quantidades.
+- Cálculo do consumo total de calorias e proteínas.
+- Cálculo das quantidades restantes para atingir as metas.
+- Avaliação do estado da meta de calorias.
 
-## Technologies
+### Tecnologias
+
+- Java 25
+- Programação Orientada a Objetos (POO)
+- Git e GitHub
+
+### Status
+
+🚧 Em desenvolvimento.
+
+---
+
+## 🇺🇸 English
+
+NutriTrack is a Java application designed to track daily calorie and protein intake in a simple and practical way.
+
+This project is part of my journey to learn Java and backend development. Writing documentation in English is also part of my effort to learn technical vocabulary.
+
+### Current Features
+
+- User profile with daily calorie and protein goals.
+- Food data modeling with nutritional information.
+- Food consumption records and quantities.
+- Calculation of total calorie and protein intake.
+- Calculation of remaining daily nutrition goals.
+- Calorie goal status evaluation.
+
+### Technologies
 
 - Java 25
 - Object-Oriented Programming (OOP)
 - Git and GitHub
 
-## Goals
+### Status
 
-- Learn Java through a real project
-- Practice Object-Oriented Programming
-- Build a professional portfolio
-- Keep the application simple, fast and useful
-
-## Status
-
-🚧 In development
+🚧 In development.
