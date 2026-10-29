@@ -21,7 +21,7 @@ O projeto faz parte da minha jornada de aprendizado em Java e desenvolvimento ba
 - Programação Orientada a Objetos (POO)
 - Git e GitHub
 
-### Status
+## Status do Projeto
 
 🚧 Em desenvolvimento.
 
@@ -48,6 +48,6 @@ This project is part of my journey to learn Java and backend development. Writin
 - Object-Oriented Programming (OOP)
 - Git and GitHub
 
-### Status
+## Project Status
 
 🚧 In development.
