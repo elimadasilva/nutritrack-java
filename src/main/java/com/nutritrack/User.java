@@ -11,28 +11,40 @@ public class User {
     private double dailyProteinGoal;
 
     /*
-    * Creates a user profile.
-    * Cria um perfil de usuário.
-    */
+     * Creates a user profile.
+     * Cria um perfil de usuário.
+     */
 
-    public User(String name, double dailyCalorieGoal, double dailyProteinGoal){
+    public User(String name, double dailyCalorieGoal, double dailyProteinGoal) {
+        if (name == null || name.isBlank()) {
+            throw new IllegalArgumentException("Name cannot be empty");
+        }
+
+        if (dailyCalorieGoal < 0) {
+            throw new IllegalArgumentException(
+                    "Daily calorie goal cannot be negative.");
+        }
+
+        if (dailyProteinGoal < 0) {
+            throw new IllegalArgumentException(
+                    "Daily protein goal cannot be negative.");
+        }
+
         this.name = name;
         this.dailyCalorieGoal = dailyCalorieGoal;
         this.dailyProteinGoal = dailyProteinGoal;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public double getDailyCalorieGoal(){
+    public double getDailyCalorieGoal() {
         return dailyCalorieGoal;
     }
 
-    public double getDailyProteinGoal(){
+    public double getDailyProteinGoal() {
         return dailyProteinGoal;
     }
-
-    
 
 }
